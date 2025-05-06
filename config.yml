@@ -1,0 +1,10 @@
+# DeathSwap Configuration for 1.18.2
+
+# Minimum time between swaps (in seconds)
+min-swap-time: 30
+
+# Maximum time between swaps (in seconds)
+max-swap-time: 120
+
+# Whether to announce upcoming swaps
+announce-swaps: true
