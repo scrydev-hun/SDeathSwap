@@ -7,7 +7,7 @@ description: A thrilling DeathSwap game for Minecraft 1.18.2
 commands:
   deathswap:
     description: Main command for DeathSwap game
-    usage: /deathswap <start|stop|join|leave|settime|reload>
+    usage: /sdeathswap <start|stop|join|leave|settime|reload>
     permission: deathswap.use
     permission-message: You don't have permission to use this command!
 permissions:
