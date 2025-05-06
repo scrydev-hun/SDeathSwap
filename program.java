@@ -85,13 +85,13 @@ public final class program extends JavaPlugin {
     }
 
     private void sendUsage(CommandSender sender) {
-        sender.sendMessage(ChatColor.GOLD + "DeathSwap Commands:");
-        sender.sendMessage(ChatColor.YELLOW + "/deathswap start - Start the game");
-        sender.sendMessage(ChatColor.YELLOW + "/deathswap stop - Stop the game");
-        sender.sendMessage(ChatColor.YELLOW + "/deathswap join - Join the game");
-        sender.sendMessage(ChatColor.YELLOW + "/deathswap leave - Leave the game");
-        sender.sendMessage(ChatColor.YELLOW + "/deathswap settime <min> <max> - Set swap time range");
-        sender.sendMessage(ChatColor.YELLOW + "/deathswap reload - Reload config");
+        sender.sendMessage(ChatColor.GOLD + "SDeathSwap Commands:");
+        sender.sendMessage(ChatColor.YELLOW + "/sdeathswap start - Start the game");
+        sender.sendMessage(ChatColor.YELLOW + "/sdeathswap stop - Stop the game");
+        sender.sendMessage(ChatColor.YELLOW + "/sdeathswap join - Join the game");
+        sender.sendMessage(ChatColor.YELLOW + "/sdeathswap leave - Leave the game");
+        sender.sendMessage(ChatColor.YELLOW + "/sdeathswap settime <min> <max> - Set swap time range");
+        sender.sendMessage(ChatColor.YELLOW + "/sdeathswap reload - Reload config");
     }
 
     private void handleStart(CommandSender sender) {
