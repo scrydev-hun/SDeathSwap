@@ -1,0 +1,16 @@
+name: SDeathSwap
+main: hu.scry.command.program
+version: 1.0
+api-version: 1.18
+author: scry
+description: A thrilling DeathSwap game for Minecraft 1.18.2
+commands:
+  deathswap:
+    description: Main command for DeathSwap game
+    usage: /deathswap <start|stop|join|leave|settime|reload>
+    permission: deathswap.use
+    permission-message: You don't have permission to use this command!
+permissions:
+  deathswap.use:
+    description: Allows use of DeathSwap commands
+    default: true
